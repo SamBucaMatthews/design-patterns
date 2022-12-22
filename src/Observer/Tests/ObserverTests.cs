@@ -2,10 +2,7 @@
 
 public class ObserverTests
 {
-    private readonly Notification _notification = new()
-    {
-        Information = "Something happened!",
-    };
+    private readonly Notification _notification = new("Something happened!");
 
     private Publisher _publisher = null!;
 

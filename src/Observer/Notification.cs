@@ -1,6 +1,6 @@
 ﻿namespace Observer;
 
-public record Notification
+public record Notification(string Information)
 {
-    public string? Information;
+    public string Information = Information;
 }
